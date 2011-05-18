@@ -8,16 +8,22 @@ Python tools for chrome extensions.
 
 It is inspired by rubygems' crxmake.
 
-## Usage:
+## Usage
+    
+### Package a signed CRX for distribution
 
-    crxmake -o <extension-name>.zip -m zip -k <pem-path> -i <comma-sep-ignore-patterns>
+    crxmake -o <extension-name>.crx -k <pem-path> -i <comma-sep-ignore-patterns>
 
-## Requires:
+### Package a zip for uploading to the gallery
 
-- "openssl" command: because current M2Crypto lacks func for rsa pubout DER
+    crxmake -o <extension-name>.zip -m zip -i <comma-sep-ignore-patterns>
 
-## Resources:
+## Requirements
 
-- "M2Crypto":http://chandlerproject.org/bin/view/Projects/MeTooCrypto
-- "crxmake":http://github.com/Constellation/crxmake
-- "Packing Chrome extensions in Python":http://grack.com/blog/2009/11/09/packing-chrome-extensions-in-python/
+* "openssl" command: because current M2Crypto lacks func for rsa pubout DER
+
+## Resources
+
+* "M2Crypto":http://chandlerproject.org/bin/view/Projects/MeTooCrypto
+* "crxmake":http://github.com/Constellation/crxmake
+* "Packing Chrome extensions in Python":http://grack.com/blog/2009/11/09/packing-chrome-extensions-in-python/
