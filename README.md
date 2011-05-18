@@ -24,6 +24,6 @@ It is inspired by rubygems' crxmake.
 
 ## Resources
 
-* (M2Crypto)[http://chandlerproject.org/bin/view/Projects/MeTooCrypto]
-* (Ruby crxmake)[http://github.com/Constellation/crxmake]
-* (Packing Chrome extensions in Python)(http://grack.com/blog/2009/11/09/packing-chrome-extensions-in-python)
+* [M2Crypto](http://chandlerproject.org/bin/view/Projects/MeTooCrypto)
+* [Ruby crxmake](http://github.com/Constellation/crxmake)
+* [Packing Chrome extensions in Python](http://grack.com/blog/2009/11/09/packing-chrome-extensions-in-python)
