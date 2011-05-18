@@ -10,12 +10,10 @@ It is inspired by rubygems' crxmake.
 
 ## Usage:
 
-    crxmake.py PACKAGE_BASE_DIR
+    crxmake -o <extension-name>.zip -m zip -k <pem-path> -i <comma-sep-ignore-patterns>
 
 ## Requires:
 
-- python 2
-- M2Crypto
 - "openssl" command: because current M2Crypto lacks func for rsa pubout DER
 
 ## Resources:
