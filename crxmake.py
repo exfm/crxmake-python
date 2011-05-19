@@ -42,7 +42,7 @@ def _build_zip(zip_buffer, source, ignore_func):
 
         full_path = os.path.join(source, pathname)
         if os.path.isdir(full_path):
-            _build_zip(zip_buffer, source, ignore_func)
+            _build_zip(zip_buffer, full_path, ignore_func)
         elif os.path.isfile(full_path):
             log.info('Adding %s' % full_path)
             zip_buffer.write(full_path)
